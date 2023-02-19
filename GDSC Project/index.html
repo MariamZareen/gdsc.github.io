@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <img src="gdsc.png" alt="kk" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="abcd">About</a></li>
+                    <li><a href="abcd">Events</a></li>
+                    <li><a href="abcd">Blogs</a></li>
+                    <li><a href="abcd">Projects</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" alt="abs" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                   <h2>Hello <br> <div class="dynamic">
+                    <li><span>Coders</span></li>
+                    <li><span>Developers</span></li>
+                    <li><span>Enthusiasts</span></li>
+                    <li><span>Learners</span></li>
+                   </div></h2>
+                   <h3>Google Developer Students Club</h3>
+                   <p>Google collaborates with university students who are passionate about growing debeloper communities. GDSC is one of the communities of Google where they provide resources to empower students and developers to learn about a wide range of technologies and apply their new learnings to build viable solutions for real-world problems.</p>
+                   <!-- <h4>$32.50</h4> -->
+                   <button>Join Now <img src="arrow.png" alt="ierd"></button>
+            </div>
+            <div class="col-2">
+                 <img src="hero.svg" alt="asbe" class="controller">
+                 <div class="color-box"></div>
+            </div>
+        </div>
+        <h2 class="head">What do we do?</h2>
+        <div class="row-2">
+        <p class="dont-show">This is div 2. this sho</p>
+        <p class="para">Google Developer Clubs can take many forms- fromm just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences. We work on various technical domains and try to make use of Google Technologies to empower the audience around us.</p>
+        <img src="im2.png" alt="google search" class="img2">
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="footer_container">
+          <div class="footer_top">
+            <div>
+              <h6 class="footer_title">Programs</h6>
+              <ul class="footer_list">
+                <li class="footer_list-item"><a href="" class="footer_list-link">Women Techmakers</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Experts</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Groups</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Meetings</a></li>
+
+      
+              </ul>
+            </div>
+          <div class="footer_top">
+            <div>
+              <h6 class="footer_title">Contribute</h6>
+              <ul class="footer_list">
+                <li class="footer_list-item"><a href="" class="footer_list-link">File a Bug</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">View Source</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Affiliates</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Sitemap</a></li>
+      
+              </ul>
+            </div>
+          </div>
+          
+            <div>
+              <h6 class="footer_title">Developers</h6>
+              <ul class="footer_list">
+                <li class="footer_list-item"><a href="" class="footer_list-link">Firebase console</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Google Cloud Platform</a></li>
+                <li class="footer_list-item"><a href="" class="footer_list-link">Actions on Google</a></li>
+      
+              </ul>
+          </div>
+           
+        
+          </div>
+      
+          <hr class="footer_divider">
+          <div class="footer_bottom">
+            <span class="copyright">&copy; 2021 Company. All rights reserved.</span>
+           
+            <ul class="footer_list"><li class="footer_list-item">
+              <a href=" " class="footer_list-link">
+                <div class="social-links">
+                    <a href="abs "><img src="fb.png" alt="kerj"></a> 
+                    <a href="abs "><img src="ig.png" alt="kerj"></a> 
+                    <a href="abs "><img src="tw.png" alt="kerj"></a> 
+                </div>
+              </a>
+            </li></ul>
+          </div>
+        </div>
+    <script>
+        var menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight=="0px"){
+                menuList.style.maxHeight="130px"
+            }
+            else{
+                menuList.style.maxHeight="0px";
+            }
+        }
+    </script>
+</body>
+</html>
